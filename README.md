@@ -1,15 +1,10 @@
 # pannellum-react
 
-[![npm package][npm-badge]][npm]
+> **This is a maintained fork of the [original pannellum-react](https://github.com/farminf/pannellum-react) project with React 17 support and ongoing updates.**
 
 React Component library for the [Pannellum](https://github.com/mpetroff/pannellum/) project.
 
-_Special thanks to [Matthew Petroff](https://github.com/mpetroff)_
-
-[npm-badge]: https://img.shields.io/npm/v/pannellum-react.svg
-[npm]: https://www.npmjs.org/package/pannellum-react
-[coveralls-badge]: https://coveralls.io/repos/github/farminf/pannellum-react/badge.svg?branch=master
-[coveralls]: https://coveralls.io/github/farminf/pannellum-react
+_Special thanks to [farminf](https://github.com/farminf) for the original project and [Matthew Petroff](https://github.com/mpetroff) for Pannellum_
 
 ## React Compatibility
 
@@ -17,7 +12,19 @@ This library supports React 16, 17, and 18.
 
 ## Install and Import
 
-Install pannellum-react component
+### Install from this fork
+
+```bash
+npm install github:vietinini/pannellum-react
+```
+
+or
+
+```bash
+yarn add github:vietinini/pannellum-react
+```
+
+### Install from npm (original package)
 
 ```bash
 npm install pannellum-react --save
@@ -25,7 +32,7 @@ npm install pannellum-react --save
 
 or
 
-```
+```bash
 yarn add pannellum-react
 ```
 
@@ -43,14 +50,6 @@ _Note: By using import Pannellum from "pannellum-react/es/elements/Pannellum" th
 > **Note:** For having video tours, there is the custum hotspot which can implement the video scene changing using `handleClick`. In fact in can be the tour for videos and photos.
 > **Note:** You can also create your tour with custom hotspot, by changing the image dynamically.
 > **Note:** If you manage the props by state, you can update the component smoothly (example: updating yaw, pitch or hfov won't re-render the image and it will dynamically update)
-
-## Demo
-
-https://farminf.github.io/pannellum-react/
-
-you can also use codesandbox playground
-
-[![Edit q27rq5p6](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/q27rq5p6)
 
 ## Simple Example
 

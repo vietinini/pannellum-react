@@ -11,7 +11,9 @@ _Special thanks to [Matthew Petroff](https://github.com/mpetroff)_
 [coveralls-badge]: https://coveralls.io/repos/github/farminf/pannellum-react/badge.svg?branch=master
 [coveralls]: https://coveralls.io/github/farminf/pannellum-react
 
-**Currently there are some problem with React V18**
+## React Compatibility
+
+This library supports React 16, 17, and 18.
 
 ## Install and Import
 

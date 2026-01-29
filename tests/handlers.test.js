@@ -2,7 +2,7 @@ import React from 'react';
 import expect, { createSpy, spyOn, isSpy } from 'expect';
 import { renderToStaticMarkup as render } from 'react-dom/server';
 import Enzyme, { shallow , mount }  from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import image from "../demo/src/images/milan.jpg";
 
 import {  Pannellum } from 'src/';
